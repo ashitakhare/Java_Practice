@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+</head>
+<body style="width: 1034px;">
+	<CENTER>
+		<h3>JAVA</h3>
+	</CENTER>
+	<p>
+		Java is a programming language and a computing platform for
+		application development. It was first released by Sun Microsystem in
+		1995 and later acquired by Oracle Corporation. A Java platform
+		includes an execution engine, a compiler and a set of libraries. Java
+		is not specific to any processor or operating system. Like C compiler,
+		Java compiler does not produce native executable code for a particular
+		machine. Instead, Java produces a unique format called bytecode. It
+		executes according to the rules laid out in the virtual machine
+		specification. Java is free to access, and you can download the latest
+		version from <a href="https://java.com/en/">here.</a>
+	</p>
+	<br>
+
+	<div class="panel-group" id="accordion">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#whyjava"><b>Why
+							JAVA..??</b></a>
+				</h3>
+			</div>
+			<div id="whyjava" class="panel-collapse collapse in">
+				<div class="panel-body">
+					<p>Each, OS like Windows,Linux etc. have there own Compilers
+						therefore if a code written in window based OS can be only
+						compiled on Windows Platform, Similarly, Code written in LINUX or
+						any other OS/Platform cannot be compiled on another. What if we
+						need to run it on another system.</p>
+					<p>There are 2 Possibilities:
+					<ol>
+						<li>Write the same code again and again on different
+							platform, As a developer, I want my software program to work on
+							all platforms available, to maximize my revenues. So I would have
+							to buy separate compilers OR</li>
+						<li><b>Use JAVA.</b></li>
+					</ol>
+					<p>Because, By using Java Virtual Machine, these problem can be
+						solved.</p>
+					<center>
+						<img alt="No Image"
+							src="img/jvm.PNG"
+							align="middle">
+					</center>
+					<ol>
+						<li>The code to display saved as .java file as shown in above
+							image.</li>
+						<li>Using the java compiler the code is converted into an
+							intermediate code called the bytecode. The output is a .class
+							file.</li>
+						<li>This code is not understood by any platform, but only a
+							virtual platform called the Java Virtual Machine</li>
+						<li>This Virtual Machine resides in the RAM of your operating
+							system. When the Virtual Machine is fed with this bytecode, it
+							identifies the platform it is working on and converts the
+							bytecode into the native machine code</li>
+
+					</ol>
+					<h4>Hence, java is a language as well as a platform (JVM)</h4>
+					<br>
+					<br>
+
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#jvm"><b>Java
+							Virtual Machine(JVM)</b></a>
+				</h3>
+			</div>
+			<div id="jvm" class="panel-collapse collapse">
+				<div class="panel-body">
+					<p>
+						JVM stands for Java Virtual Machine. It is the engine that drives
+						the Java Code. It converts Java bytecode into machines language.<br>
+					<ul>
+						<li>In other programming language, the compiler produces code
+							for a particular system. But Java compiler produces code for a
+							Virtual Machine.</li>
+						<li>In JVM, Java code is compiled into bytecode. This
+							bytecode gets interpreted on different machines</li>
+						<li>Between host system and Java source, Bytecode is an
+							intermediary language.</li>
+						<li>JVM is responsible for allocating a memory space.</li>
+					</ul>
+					The Java VM or Java Virtual Machine resides on the RAM. During
+					execution, using the class loader the class files are brought on
+					the RAM. <br>
+
+
+					<center>
+						<img alt=""
+							src="img/jvm2.PNG"
+							align="middle">
+					</center>
+					<p>Next, the execution engine will convert the Bytecode into
+						Native machine code. This is just in time compiling. It is one of
+						the main reason why Java is comparatively slow.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>

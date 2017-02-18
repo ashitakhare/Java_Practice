@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JAVA</title>
+<style>
+.bg-4 {
+	background-color: #2f2f2f;
+	color: #ffffff;
+}
+
+.bg-3 {
+	background-color: #2f2f2f;
+	color: #ffffff;
+}
+
+p, ul, li {
+	font-size: 10px;
+	font: 17px "Montserrat", sans-serif;
+}
+</style>
+
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(function() {
+	$("#diyprog").load("diyprog.html");
+});
+$(function() {
+	$("#s").load("start.html");
+});
+$(function() {
+	$("#firstcode").load("code.html");
+});
+$(function() {
+	$("#obj1").load("obj.html");
+});
+$(function() {
+	$("#intro1").load("intro.html");
+});
+$(function() {
+	$("#ins").load("install.html");
+});
+	
+</script>
+<script>
+	
+</script>
+
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+	integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	crossorigin="anonymous">
+
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+	<header class="container-fluid bg-3 text-center">
+
+		<div class="container" id=div2>
+			<ul class="nav nav-tabs nav-justified">
+				<li class="active"><a data-toggle="tab" href="#intro">Introduction</a></li>
+				<li><a data-toggle="tab" href="#install">Installing JAVA</a></li>
+				<li><a data-toggle="tab" href="#arch">Getting Started</a></li>
+				<li><a data-toggle="tab" href="#code">First Code</a></li>
+				<li class="dropdown"><a href="#prac" data-toggle="dropdown">Practice
+						<span class="caret"></span>
+				</a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#obj" data-toggle="tab">Objectives</a></li>
+						<li><a href="#diy" data-toggle="tab">DIY Programs</a></li>
+					</ul></li>
+			</ul>
+		</div>
+	</header>
+
+	<div>
+
+		<div class="page-header" align="center">
+			<img src="img/quick-trial-banner.png"
+				style="height: 162px; width: 1024px" />
+		</div>
+
+
+	</div>
+
+	<div class="tab-content">
+		<div id="intro" class="tab-pane fade in active">
+			<div id="intro1"></div>
+		</div>
+
+
+		<div id="arch" class="tab-pane fade">
+			<div id="s"></div>
+		</div>
+		<div id="code" class="tab-pane fade">
+			<div id="firstcode"></div>
+		</div>
+		<div id="obj" class="tab-pane fade">
+			<div id="obj1"></div>
+		</div>
+		<div id="diy" class="tab-pane fade">
+			<div id="diyprog"></div>
+		</div>
+		<div id="install" class="tab-pane fade">
+			<div id="ins"></div>
+		</div>
+
+	</div>
+	
+	<br>
+	<br>
+	<footer class="container-fluid bg-4 text-center">
+		<p>
+			Developed by <a href="https://plus.google.com/111309391160101628964">Ashita
+				Khare</a>
+		</p>
+	</footer>
+
+</body>
+</html>
